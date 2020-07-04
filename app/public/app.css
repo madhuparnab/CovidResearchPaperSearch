@@ -1,0 +1,51 @@
+.content {
+  padding: 20px;
+}
+
+#header {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#search_results .cloudsearch_result_icon {
+  display: none;
+}
+
+#search_results .cloudsearch_result_snippet {
+  padding-left: 0;
+}
+
+#search_results .cloudsearch_result_meta_line {
+  padding-left: 0;
+}
+
+#search_results .cloudsearch_result_count_container {
+  padding-left: 0;
+}
+
+#facet_results .cloudsearch_facet_result_operator_name {
+  font-weight: bold;
+}
+
+#facet_results .cloudsearch_facet_bucket_value {
+  margin-left: 8px;
+}
+
+#app {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#search_bar {
+  flex: 0 0 100%;
+}
+
+#facet_results {
+  flex: 0 0 auto;
+}
+
+#search_results {
+  flex: 1 1 50%;
+}
