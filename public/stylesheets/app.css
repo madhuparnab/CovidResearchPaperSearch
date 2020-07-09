@@ -49,3 +49,12 @@
 #search_results {
   flex: 7;
 }
+
+#Heading {
+font-family: "Times New Roman", Times, serif;
+font-size: 50px;
+color: #440066;
+padding-top: 100px;
+height: 300px;
+width: 1000px;
+}
