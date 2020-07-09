@@ -66,7 +66,7 @@ async function initializeApp() {
   auth.isSignedIn.listen(onSignInChanged);
   onSignInChanged(auth.isSignedIn.get());
 
-=  document.getElementById("sign-in").onclick = (e) =>  auth.signIn();
+  document.getElementById("sign-in").onclick = (e) =>  auth.signIn();
   document.getElementById("sign-out").onclick = (e) => auth.signOut();
    var resultsContainerAdapter = new ResultsContainerAdapter();
 
